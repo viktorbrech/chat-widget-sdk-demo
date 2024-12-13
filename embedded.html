@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -9,8 +9,16 @@
     <script>
       window.hsConversationsSettings = {
         loadImmediately: false,
+        inlineEmbedSelector: '#container-id'
       };
     </script>
+    <style>
+      #hubspot-conversations-inline-iframe {
+        width: 500px;
+        height: 300px;
+        border: 20px;
+      }
+    </style>
   </head>
   <a href="index.html">(Click here for version with standard chat window)</a>
   <body>
@@ -40,6 +48,7 @@
         >
       widget.remove
       </button>
+      <div id="container-id"></div>
     </div>
   </body>
 </html>
