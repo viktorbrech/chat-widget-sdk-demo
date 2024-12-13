@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HubSpot Chat Widget SDK Methods</title>
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3967897.js"></script>
+    <!-- End of HubSpot Embed Code -->
+    <script>
+      window.hsConversationsSettings = {
+        loadImmediately: false,
+      };
+    </script>
+  </head>
+  <a href=/">Click here for version with standard chat window.</a>
+  <body>
+    <div class="chat-buttons">
+      <button
+        onclick="window.HubSpotConversations.widget.load();"
+        >
+      widget.load
+      </button>
+      <button
+        onclick="window.HubSpotConversations.widget.refresh();"
+        >
+      widget.refresh
+      </button>
+      <button
+        onclick="window.HubSpotConversations.widget.open();"
+        >
+      widget.open
+      </button>
+      <button
+        onclick="window.HubSpotConversations.widget.close();"
+        >
+      widget.close
+      </button>
+      <button
+        onclick="window.HubSpotConversations.widget.remove();"
+        >
+      widget.remove
+      </button>
+    </div>
+  </body>
+</html>
